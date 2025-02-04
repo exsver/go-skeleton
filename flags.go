@@ -12,7 +12,7 @@ func parseFlags() *Flags {
 	var f Flags
 
 	f.ConfigFilePath = flag.String("config", "./config.json", "path to config file")
-	f.LogLevel = flag.String("log-level", "default", "log-level: default|silent|debug|")
+	f.LogLevel = flag.String("log-level", "default", "log-level: default|silent|debug")
 
 	flag.Parse()
 
