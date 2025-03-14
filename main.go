@@ -16,7 +16,10 @@ func main() {
 	}
 
 	// Set GOMAXPROCS
+	Log.Info.Printf("Setting GOMAXPROCS=%d", config.MaxProcs)
 	runtime.GOMAXPROCS(config.MaxProcs)
+
+	Log.Info.Println("App is running")
 
 	// Add app logic here
 }
