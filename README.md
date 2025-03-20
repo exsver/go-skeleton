@@ -2,6 +2,11 @@
 
 Basic go application template. Includes flags, config and logger.
 
+**See other:**
+
+- [go-skeleton-workers](https://github.com/exsver/go-skeleton-workers) - Basic go application template with workers. Includes flags, config and logger.
+
+
 ## Init your app
 
 1. Git clone
