@@ -3,6 +3,8 @@ OUT_BIN = main
 
 export PATH := $(PATH):/usr/local/go/bin
 
+all: clean build
+
 build:
 	$(GO_BIN) mod tidy
 	$(GO_BIN) build -o $(OUT_BIN) -v
@@ -14,3 +16,7 @@ download:
 update:
 	$(GO_BIN) get -u
 	$(GO_BIN) mod tidy
+
+clean:
+	$(GO_BIN) clean
+	rm -f $(OUT_BIN)
