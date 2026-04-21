@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-// Log are global logger variable.
+// Log is a global logger variable.
 var (
 	Log *Logger
 )
