@@ -11,8 +11,10 @@ var (
 	Log *Logger
 )
 
+// no date/time
 const logFlags = 0
 
+// with date/time
 // const logFlags = log.LstdFlags
 
 type Logger struct {
