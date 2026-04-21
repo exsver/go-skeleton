@@ -6,13 +6,15 @@ import (
 	"os"
 )
 
-// Log are global logger variable.
+// Log is a global logger variable.
 var (
 	Log *Logger
 )
 
+// no date/time
 const logFlags = 0
 
+// with date/time
 // const logFlags = log.LstdFlags
 
 type Logger struct {
